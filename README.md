@@ -20,6 +20,7 @@ The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Pac
 2. autumnhd
 > - Map Rendering, Map System.
 > - Open Source Project for 24rc
+> - Island Assets and Assets
 
 ⌛ **Inspiration:**
 1. 24rc (24 Radar Client, autumnhd)
