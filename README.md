@@ -14,14 +14,16 @@ The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Pac
 3. [ESLint Javascript](https://eslint.org/)
 
 # Credit
-1. mrbug12
-> - Developer, Backend Development.
-> - Map rendering and Display Toolbars
-2. autumnhd
+1. autumnhd
 > - Map Rendering, Map System.
 > - Open Source Project for 24rc
 > - Island Assets and Assets
 
+**Made By:**
+1. mrbug12
+> - Developer, Backend Development.
+> - Map rendering and Display Toolbars
+> - 
 ⌛ **Inspiration:**
 1. 24rc (24 Radar Client, autumnhd)
 2. 24scope (Zendruc)
