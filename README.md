@@ -16,6 +16,7 @@ The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Pac
 # Credit
 1. mrbug12
 > - Developer, Backend Development.
+> - Map rendering and Display Toolbars
 2. autumnhd
 > - Map Rendering, Map System.
 > - Open Source Project for 24rc
