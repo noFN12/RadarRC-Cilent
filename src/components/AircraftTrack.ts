@@ -73,15 +73,16 @@ export default class AircraftTrack {
     formatText() {
         const acftData = this.acftData;
         const altitudeDelta = acftData.altitude - this.prevAlt;
-        const thresholdFPM = 500; // Show arrow if climbing or descending greater than 500 FPM.
-        const threasholdDelta = thresholdFPM / (60 / 3); // 60/Δt. We assume Δt is 3. In future we can timestamp acftData and find real Δt.
-        const altitudeArrow = (altitudeDelta > threasholdDelta) ? "↑" : (altitudeDelta < -threasholdDelta) ? "↓" : " "
+        const thresholdFPM = 500;
+        const threasholdDelta = thresholdFPM / (60 / 3);
+        const altitudeArrow = (altitudeDelta > threasholdDelta) ? "↑" : (altitudeDelta < -threasholdDelta) ? "↓" : " ";
+
+        this.dataBlock.style.fill = acftData.isOnGround ? 0x3399ff : 0xffffff;
 
         this.dataBlock.text =
             `${callsignToIcao(acftData.callsign) || callsignFallback(acftData.callsign)}\n` +
             `FL${altToFL(acftData.altitude)}${altitudeArrow} ${Math.floor(Math.abs(acftData.speed))}kt\n` +
             `${padHeading(acftData.heading)}°   ${AcftTypeMap.get(acftData.aircraftType)||"????"}\n`
-            // `${acftData.playerName}\n`
     }
 
     /**
