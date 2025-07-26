@@ -7,15 +7,11 @@ The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Pac
  2. All assets are in src/assets. Credit are below.
  3. All options are **disabled**. More are coming **soon**
 
-📥 **FRAMEWORK:**
-1. [React]([https://pixijs.com/](https://react.dev/))
-
-📋 **LIBRERY:**
-1. [Pixi.js](https://pixijs.com/)
-
-🔨 **PACKAGE USED:**
-1. [Lucide React](https://lucide.dev/guide/packages/lucide-react)
-2. [ESLint Javascript](https://eslint.org/)
+📥 **PACKAGE/SYSTEM USED:**
+1. [React](https://react.dev/))
+2. [Pixi.js](https://pixijs.com/)
+3. [Lucide React](https://lucide.dev/guide/packages/lucide-react)
+3. [ESLint Javascript](https://eslint.org/)
 
 # Credit
 1. mrbug12
