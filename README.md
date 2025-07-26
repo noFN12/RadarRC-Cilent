@@ -1,26 +1,8 @@
-# (ATC24) RadarRC - Radar Client for **ATC24**
-Open Source project, based off **ATC24** in Pilot Training Flight Simulator. The system and layout are **inspired** from 24scope, 24suite and 24rc.
-The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Package used are **React** for front-end and **Pixi.js** for map rendering.
-
- ⚠️ **WARNING:**
- 1. System are made in React.
- 2. All assets are in src/assets. Credit are below.
- 3. All options are **disabled**. More are coming **soon**
-
-📥 **PACKAGE/SYSTEM USED:**
-1. [React](https://react.dev/)
-2. [Pixi.js](https://pixijs.com/)
-3. [Lucide React](https://lucide.dev/guide/packages/lucide-react)
-3. [ESLint Javascript](https://eslint.org/)
-
-# Credit
-1. mrbug12
-> - Developer, Backend Development.
-2. autumnhd
-> - Map Rendering, Map System.
-> - Open Source Project for 24rc
-
-⌛ **Inspiration:**
-1. 24rc (24 Radar Client, autumnhd)
-2. 24scope (Zendruc)
-3. 24suite (Zendruc)
+# 24RC
+ATC **24** **R**adar **C**lient. Losely based on **CRC** and **STARS**.
+## Assets
+All SVG files for maps and overlays should have 0,0 in game mapped to 0,0 in the SVG file. The
+scale is 1px in the SVG file is 100 studs in game. This massively simplifies the addition of layers
+in the code, for we don't have to worry about offsetting or scaling different layers from the
+basemap. The resulting SVG files will have content outside the viewport, but this is unimportant as
+the only context we care about these SVGs being rendered in is here.
