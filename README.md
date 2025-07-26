@@ -8,7 +8,7 @@ The project was coded in **Typescript XML (TSX)**, **Javascript XML (JSX)**. Pac
  3. All options are **disabled**. More are coming **soon**
 
 📥 **PACKAGE/SYSTEM USED:**
-1. [React](https://react.dev/))
+1. [React](https://react.dev/)
 2. [Pixi.js](https://pixijs.com/)
 3. [Lucide React](https://lucide.dev/guide/packages/lucide-react)
 3. [ESLint Javascript](https://eslint.org/)
